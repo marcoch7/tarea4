@@ -24,7 +24,7 @@ f = 5000
 T = 1/f 
 
 # Number of samplings
-p = 80
+p = 140
 
 # Points per period
 tp = np.linspace(0, T, p)

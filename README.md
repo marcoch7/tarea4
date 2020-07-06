@@ -32,13 +32,13 @@ Las images "wave.png" y "Tx.png" corresponden a la curva sinusoidal antes de la 
 ### Problema 2
 
 La potencia promedio se calcula a partir de la ecuacion <br />
-<img src="./images/mediumfreq.png" width="380"> <br />
-Para calcuar la integral de la senal al cuadrado, dividida entre el doble de tiempo se utiliza la funcion integrate.trapz. Como resultado se obtiene una potencia promedio de 0.0.4937506171882715 W
+<img src="./images/mediumfreq.png" width="300"> <br />
+Para calcuar la integral de la senal al cuadrado, dividida entre el doble de tiempo se utiliza la funcion integrate.trapz. Como resultado se obtiene una potencia promedio de 0.4964289260206616 W
 
 ### Problema 3
 
 A partir de la siguiente ecuacion, se despeja la potencia del ruido  <br />
-<img src="./images/SNR.png" width="380"> <br />
+<img src="./images/SNR.png" width="300"> <br />
 
 Se pide al usuario que ingrese los limites para SNR, a partir de estos se crea la funcion 
 ```c
